@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const sqlite3 = require('sqlite3').verbose();
-const { token } = require('./config.json');
 const client = new Discord.Client();
 
 const db = new sqlite3.Database('./users.db');
